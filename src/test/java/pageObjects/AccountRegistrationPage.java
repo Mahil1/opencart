@@ -1,8 +1,10 @@
 package pageObjects;
 
-public class AccountRegistrationPage {
-	
-	public class AccountRegistrationPage extends BasePage{
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AccountRegistrationPage extends BasePage{
 		WebDriver driver;
 		
 		public AccountRegistrationPage(WebDriver driver)
@@ -110,4 +112,4 @@ public class AccountRegistrationPage {
 	}
 
 
-}
+
